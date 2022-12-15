@@ -21,31 +21,29 @@
         <table>
             <tr>
                 <td colspan="2"><button class="limpar" onclick="apagar('')" style="width: 110px;">AC</button></td>
-                <td><button class="teclas" id="operacoes" onclick="teclar('*')">x</button></td>
-                <td><button class="teclas" id="operacoes" onclick="teclar('/')">/</button></td>
+                <td><button class="btnDivisao"  id="operacoes" onclick="teclar('/')">/</button></td>
+                <td><button class="btnmultiplicacao" id="operacoes"  onclick="teclar('*')">*</button></td>
             </tr>
             <tr>
-                <td><button class="teclas" id="numeros" onclick="teclar('7')">7</button></td>
-                <td><button class="teclas" id="numeros" onclick="teclar('8')">8</button></td>
-                <td><button class="teclas" id="numeros" onclick="teclar('9')">9</button></td>
-                <td><button class="teclas" id="operacoes" onclick="teclar('-')">-</button></td>
+                <td><button class="btn7" id="numeros" onclick="teclar('7')">7</button></td>
+                <td><button class="btn8" id="numeros" onclick="teclar('8')">8</button></td>
+                <td><button class="btn9" id="numeros" onclick="teclar('9')">9</button></td>
+                <td><button class="btnSubtracao"  id="operacoes" onclick="teclar('-')">-</button></td>
             </tr>
             <tr>
-                <td><button class="teclas" id="numeros" onclick="teclar('4')">4</button></td>
-                <td><button class="teclas" id="numeros" onclick="teclar('5')">5</button></td>
-                <td><button class="teclas" id="numeros" onclick="teclar('6')">6</button></td>
-                <td><button class="teclas" id="operacoes" onclick="teclar('+')">+</button></td>
+                <td><button class="btn4" id="numeros" onclick="teclar('4')">4</button></td>
+                <td><button class="btn5" id="numeros" onclick="teclar('5')">5</button></td>
+                <td><button class="btn6" id="numeros" onclick="teclar('6')">6</button></td>
+                <td><button class="btnSoma" id="operacoes"  onclick="teclar('+')">+</button></td>
             </tr>
             <tr>
-                <td><button class="teclas" id="numeros" onclick="teclar('1')">1</button></td>
-                <td><button class="teclas" id="numeros" onclick="teclar('2')">2</button></td>
-                <td><button class="teclas" id="numeros" onclick="teclar('3')">3</button></td>
-                <td rowspan="2"><button class="teclas" id="operacoes" onclick="calcular('')"
-                        style="height: 110px;">=</button></td>
+                <td><button class="btn1" id="numeros" onclick="teclar('1')">1</button></td>
+                <td><button class="btn2" id="numeros" onclick="teclar('2')">2</button></td>
+                <td><button class="btn3" id="numeros" onclick="teclar('3')">3</button></td>
+                <td rowspan="2"><button class="teclas" id="operacoes" onclick="calcular('')" style="height: 110px;">=</button></td>
             </tr>
             <tr>
-                <td colspan="2"><button class="teclas" id="numeros" onclick="teclar('0')"
-                        style="width: 110px;">0</button></td>
+                <td colspan="2"><button class="btn0" id="numeros" onclick="teclar('0')" style="width: 110px;">0</button></td>
                 <td><button class="teclas" id="numeros" onclick="teclar('.')">.</button></td>
             </tr>
         </table>
@@ -54,7 +52,7 @@
     </div>
 
 
-    <script src="js/javas.js"></script>
+    <script src="js/calculadora.js"></script>
 </body>
 
 </html>
